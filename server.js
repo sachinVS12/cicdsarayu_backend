@@ -16,7 +16,7 @@ const users = [];
 
 // Home route
 app.get("/", (req, res) => {
-  res.status(200).json({ success: true, message: "Hello World 14000" });
+  res.status(200).json({ success: true, message: "Hello World 1400012" });
 });
 
 // Signup route
