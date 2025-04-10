@@ -15,12 +15,12 @@ app.use(
 const users = [];
 
 // Home route
-// app.get("/", (req, res) => {
-//   res.status(200).json({ success: true, message: "Hello World 1400012" });
-// });
+app.get("/", (req, res) => {
+  res.status(200).json({ success: true, message: "Hello sachintendulkar" });
+});
 
 // Signup route
-app.post("/", (req, res) => {
+app.post("/signup", (req, res) => {
   const { username, password } = req.body;
 
   // Check if user already exists
